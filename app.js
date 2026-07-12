@@ -7,7 +7,7 @@
     const previewEl = document.getElementById('preview');
     const statusEl = document.getElementById('status');
 
-    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%&*_-+=';
+    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
 
     function generatePassword(length = 20) {
       const values = new Uint32Array(length);
